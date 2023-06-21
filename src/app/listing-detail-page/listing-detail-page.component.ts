@@ -21,6 +21,7 @@ export class ListingDetailPageComponent implements OnInit {
     if (fakeListing !== undefined){
       this.listing = fakeListing;
     }
+    console.log(this.listing);
     
   }
 
